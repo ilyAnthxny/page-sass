@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page with Sass</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header id="menu">
+        <nav>
+            <a href="index.html"><img src="assets/images/logo.png" class="logo" alt="logo" width="200" height="50"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#servicios">Portfolio</a></li>
+                <li><a href="#footer">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Presentation -->
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>We design minimalist interfaces that enchant and captivate</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi sequi ea possimus consequatur optio alias laborum suscipit neque necessitatibus similique voluptatum temporibus perferendis nostrum totam aliquam nihil impedit, aliquid eaque.
+            </p>
+            <div>
+                <button class="btn-principal" type="submit">Comunicate</button>
+                <button class="btn-secundario" type="submit">Portfolio</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="assets/images/caratula2.png" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <section class="servicios" id="servicios">
+            <div class="titulo-servicios">
+                <h2>We create wonderful experiences for users</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, obcaecati atque! Quo dolor vitae alias, repellendus sed iusto necessitatibus provident aliquid doloremque dolorem, sapiente blanditiis corporis nemo possimus. Deleniti, recusandae.
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>UX/UI Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque totam quos, voluptatibus quis mollitia.</p>
+                </div>
+                <div>
+                    <i class="fas fa-laptop"></i>
+                    <h3>Web design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem, pariatur quisquam vitae optio ipsam!</p>
+                </div>
+                <div>
+                    <i class="fas fa-cart-arrow-down"></i>
+                    <h3>Ecommerce</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facilis dolores aspernatur, laborum natus ipsa.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p class="footer-content">ArtWEB &copy; All rights reserves 2021</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
